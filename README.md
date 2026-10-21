@@ -1,39 +1,64 @@
-
 # Student Record Manager
 
-A simple web application for managing student records using Java and DSA.
-
-## Technologies
-- Java
-- HTML
-- CSS
-- JavaScript
-
-## DSA Concepts
-- ArrayList: Stores student names.
-- Linear Search: Searches student names one by one.
+A simple student management website built using **Java, HTML, CSS, and JavaScript**, demonstrating basic Data Structures and Algorithms.
 
 ## Features
-- Add student records.
-- View all students.
-- Search by name.
-- Delete student records.
 
-## How to Run
+- Add student records
+- View all student records
+- Search students by name
+- Delete student records
+- Responsive user interface
+
+## Technologies Used
+
+- **Java:** Backend and data management
+- **ArrayList:** Stores student records
+- **Linear Search:** Searches for matching student names
+- **HTML:** Page structure
+- **CSS:** Styling and layout
+- **JavaScript:** User interactions
+
+## Screenshots
+
+### 1. Entering a Student Name
+
+![Entering a student name](assets/images/one.png)
+
+### 2. Displaying Student Records
+
+![Displaying student records](assets/images/two.png)
+
+### 3. Searching for a Student
+
+![Searching for a student](assets/images/three.png)
+
+## Run Locally
 
 1. Install Java JDK 17 or later.
-2. Open this project folder in VS Code.
-3. Open the terminal and run:
+2. Open the project folder in a terminal.
+3. Compile the Java program:
 
+   ```bash
    javac StudentManager.java
+   ```
+
+4. Start the server:
+
+   ```bash
    java StudentManager
+   ```
 
-4. Open http://localhost:8081 in your browser.
+5. Open `http://localhost:8081` in your browser.
 
-## Limitation
-Student records are stored in memory and reset when the
-Java server restarts.
+## Live Demo
+
+[Open Student Record Manager](https://njansanjay.github.io/Student-Record-Manager/)
+
+## Limitations
+
+Student records are stored in memory in the Java version. The GitHub Pages version uses browser storage, so records are not shared between users.
 
 ## Conclusion
-This project demonstrates how Java collections and linear
-search can be used to build a useful student management system.
+
+This project demonstrates how ArrayList and Linear Search can be used to build a simple, practical student record management application.
