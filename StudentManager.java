@@ -116,6 +116,6 @@ public class StudentManager {
         });
 
         server.start();
-        System.out.println("Student Manager: http://localhost:8080");
+        System.out.println("Student Manager: http://localhost:8081");
     }
 }
