@@ -28,7 +28,7 @@ A simple web application for managing student records using Java and DSA.
    javac StudentManager.java
    java StudentManager
 
-4. Open http://localhost:8080 in your browser.
+4. Open http://localhost:8081 in your browser.
 
 ## Limitation
 Student records are stored in memory and reset when the
