@@ -23,15 +23,15 @@ A simple student management website built using **Java, HTML, CSS, and JavaScrip
 
 ### 1. Entering a Student Name
 
-![Entering a student name](assets/images/one.png)
+![Entering a student name](assets/one.png)
 
 ### 2. Displaying Student Records
 
-![Displaying student records](assets/images/two.png)
+![Displaying student records](assets/two.png)
 
 ### 3. Searching for a Student
 
-![Searching for a student](assets/images/three.png)
+![Searching for a student](assets/three.png)
 
 ## Run Locally
 
