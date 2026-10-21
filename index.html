@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Record Manager</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Student Record Manager</h1>
+        <p>Manage student records easily</p>
+
+        <div class="form">
+            <input id="name" placeholder="Enter student name"
+                   maxlength="100">
+            <button onclick="addStudent()">Add Student</button>
+        </div>
+
+        <input id="search" placeholder="Search student..."
+               oninput="searchStudents()">
+
+        <h2>Student Records</h2>
+        <p id="count">Total students: 0</p>
+        <ul id="list"></ul>
+    </div>
+</body>
+</html>
